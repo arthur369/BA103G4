@@ -26,6 +26,7 @@ public class ACT_JNDIDAO implements ACT_DAO_interface{
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
 		}
 		
 	}

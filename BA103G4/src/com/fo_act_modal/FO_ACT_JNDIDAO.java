@@ -24,6 +24,7 @@ private static DataSource ds=null;
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
 		}
 		
 	}

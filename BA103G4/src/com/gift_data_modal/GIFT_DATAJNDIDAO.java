@@ -28,6 +28,7 @@ public class GIFT_DATAJNDIDAO implements GIFT_DATA_DAO_interface{
 			e.printStackTrace();
 		}
 		
+		
 	}
 	private static final String INSERT_STMT ="insert into gift_data values('G' || gift_no_seq.nextval,?,?,?,?,?,?)";
 	private static final String GET_ALL_STMT ="select * from gift_data";

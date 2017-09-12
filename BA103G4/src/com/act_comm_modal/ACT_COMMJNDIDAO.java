@@ -18,6 +18,7 @@ public class ACT_COMMJNDIDAO implements ACT_COMM_DAO_interface{
 		Context ctx;
 		try {
 			ctx = new InitialContext();
+			
 			ds=(DataSource) ctx.lookup("java:comp/env/jdbc/TestDB3");
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block

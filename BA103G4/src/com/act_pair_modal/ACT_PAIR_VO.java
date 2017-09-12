@@ -14,6 +14,7 @@ public class ACT_PAIR_VO implements Serializable{
 	}
 	public String getACT_NO() {
 		return ACT_NO;
+		
 	}
 	public void setACT_NO(String aCT_NO) {
 		ACT_NO = aCT_NO;

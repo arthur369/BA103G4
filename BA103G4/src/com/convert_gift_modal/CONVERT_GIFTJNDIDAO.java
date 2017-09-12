@@ -27,6 +27,7 @@ public class CONVERT_GIFTJNDIDAO implements CONVERT_GIFT_DAO_interface{
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
 		}
 		
 	}

@@ -15,6 +15,7 @@ public class ACT_COMMJDBCDAO implements ACT_COMM_DAO_interface{
 	String userid="b0402015";
 	String password="02015";
 	
+	
 	private static final String INSERT_STMT ="insert into act_comm values('C' ||  comm_no_seq.nextval,?,?,?,?,?,?)";
 	private static final String GET_ALL_STMT ="select * from act_comm";
 	private static final String GET_ONE_STMT="select * from act_comm where COMM_NO=?";

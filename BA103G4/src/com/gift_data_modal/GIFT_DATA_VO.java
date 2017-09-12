@@ -13,6 +13,8 @@ public class GIFT_DATA_VO implements Serializable{
 	public GIFT_DATA_VO() {
 		super();
 	}
+	
+	
 	public String getGIFT_NO() {
 		return GIFT_NO;
 	}

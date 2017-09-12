@@ -11,6 +11,7 @@ public class CONVERT_GIFT_Service {
 		dao=new CONVERT_GIFTJNDIDAO();
 		
 		
+		
 	}
 	
 	public CONVERT_GIFT_VO addConvert_gift(String apply_no,String mem_ac,String apply_name,String apply_phone,String gift_no,Date apply_date,String apply_stat,String apply_add,Date send_date,String send_no){

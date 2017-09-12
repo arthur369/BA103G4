@@ -14,6 +14,7 @@ public class ACT_COMM_VO {
 		super();
 	}
 	public String getCOMM_NO() {
+		
 		return COMM_NO;
 	}
 	public void setCOMM_NO(String cOMM_NO) {

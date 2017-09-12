@@ -142,6 +142,7 @@ public class gift_dataServlet extends HttpServlet{
 				  GIFT_DATA_Service gift_data_service=new GIFT_DATA_Service();
 				  GIFT_DATA_VO gift_data_VO=gift_data_service.addGift_data(gift_name,gift_remain,gift_cont,gift_img,gift_pt,gift_launch_date);
 				  
+				  
 				  req.setAttribute("gift_data_VO",gift_data_VO);
 				  String url ="/gift_data/listOneGift_data.jsp";
 				  RequestDispatcher successView=req.getRequestDispatcher(url);

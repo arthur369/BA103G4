@@ -11,4 +11,5 @@ public interface GIFT_DATA_DAO_interface {
      public GIFT_DATA_VO findByPrimaryKey(String GIFT_NO);
      public List<GIFT_DATA_VO> getAll();
 
+     
 }

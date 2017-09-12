@@ -10,6 +10,7 @@ public interface ACT_COMM_DAO_interface {
      public void delete(String COMM_NO);
      public  ACT_COMM_VO findByPrimaryKey(String COMM_NO);
      public List< ACT_COMM_VO> getAll();
+     
 	
 	
 	

@@ -12,6 +12,7 @@ public class AD_VO implements Serializable{
 	 private Date AD_OP_DATE;
 	 private Date AD_ED_DATE;
 	public AD_VO() {
+		
 		super();
 	}
 	public String getAD_NO() {

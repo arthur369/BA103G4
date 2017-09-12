@@ -10,4 +10,5 @@ public interface CONVERT_GIFT_DAO_interface {
      public void delete(String APPLY_NO);
      public CONVERT_GIFT_VO findByPrimaryKey(String APPLY_NO);
      public List<CONVERT_GIFT_VO> getAll();
+     
 }

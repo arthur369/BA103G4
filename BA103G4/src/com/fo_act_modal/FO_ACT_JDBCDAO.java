@@ -23,6 +23,7 @@ public class FO_ACT_JDBCDAO implements FO_ACT_DAO_interface{
 	private static final String DELETE = "delete from fo_act where MEM_AC=? AND ACT_NO=?";
 	private static final String UPDATE ="update fo_act set FO_ACT_DATE=? where MEM_AC=? AND ACT_NO=?";
 	
+	
 	@Override
 	public void insert(FO_ACT_VO fo_act_VO) {
 		// TODO Auto-generated method stub

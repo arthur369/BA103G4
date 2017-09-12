@@ -10,6 +10,7 @@ public class GIFT_DATA_VO implements Serializable{
     private	Integer GIFT_PT;
 	private Date GIFT_LAUNCH_DATE;
 	public GIFT_DATA_VO() {
+		
 		super();
 	}
 	public String getGIFT_NO() {

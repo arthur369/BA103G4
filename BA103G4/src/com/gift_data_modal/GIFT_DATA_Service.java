@@ -12,6 +12,7 @@ public class GIFT_DATA_Service {
  public GIFT_DATA_VO addGift_data(String gift_name,int gift_remain,String gift_cont,byte[] gift_img,int gift_pt,Date gift_launch_date){
 	 GIFT_DATA_VO gift_data_vo=new GIFT_DATA_VO();
 //	 gift_data_vo.setGIFT_NO(gift_no);
+	 
 	 gift_data_vo.setGIFT_NAME(gift_name);
 	 gift_data_vo.setGIFT_REMAIN(gift_remain);
 	 gift_data_vo.setGIFT_CONT(gift_cont);

@@ -9,6 +9,7 @@ import java.util.Set;
 
 public class ACT_COMM_Service {
 
+	
 	private ACT_COMM_DAO_interface dao;
 	
 	public ACT_COMM_Service(){

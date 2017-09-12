@@ -8,4 +8,5 @@ public interface GIFT_DATA_DAO_interface {
      public void delete(String GIFT_NO);
      public GIFT_DATA_VO findByPrimaryKey(String GIFT_NO);
      public List<GIFT_DATA_VO> getAll();
+     
 }

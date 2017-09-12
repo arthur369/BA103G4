@@ -19,6 +19,7 @@ public class ACT_PAIRJDBCDAO implements ACT_PAIR_DAO_interface{
 	private static final String GET_ONE_STMT="select * from act_pair where ACT_NO=? AND MEM_AC=?";
 	private static final String DELETE = "delete from act_pair where ACT_NO=? AND MEM_AC=?";
 	private static final String UPDATE ="update act_pair set APPLY_DATE=?,PAY_STATE=?,CHK_STATE=? where ACT_NO=? AND MEM_AC=?";
+	
 	@Override
 	public void insert(ACT_PAIR_VO act_pair_VO) {
 		// TODO Auto-generated method stub

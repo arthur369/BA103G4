@@ -10,4 +10,5 @@ public interface ACT_PAIR_DAO_interface {
      public void delete(String ACT_NO,String MEM_AC);
      public ACT_PAIR_VO findByPrimaryKey(String ACT_NO,String MEM_AC);
      public List<ACT_PAIR_VO> getAll();
+     
 }

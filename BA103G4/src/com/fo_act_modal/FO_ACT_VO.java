@@ -17,6 +17,7 @@ public class FO_ACT_VO implements Serializable{
 	}
 	public void setMEM_AC(String mEM_AC) {
 		MEM_AC = mEM_AC;
+		
 	}
 	public String getACT_NO() {
 		return ACT_NO;

@@ -15,6 +15,7 @@ public class CONVERT_GIFT_VO implements Serializable{
 	private Date SEND_DATE;
 	private String SEND_NO;
 	public CONVERT_GIFT_VO() {
+		
 		super();
 	}
 	public String getAPPLY_NO() {

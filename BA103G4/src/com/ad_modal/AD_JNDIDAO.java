@@ -24,6 +24,7 @@ public class AD_JNDIDAO implements AD_DAO_interface{
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
 		}
 		
 	}

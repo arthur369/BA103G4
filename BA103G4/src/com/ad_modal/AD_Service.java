@@ -7,6 +7,7 @@ public class AD_Service {
 	private AD_DAO_interface dao;
 	public AD_Service(){
 		dao=new AD_JNDIDAO();
+		
 	}
 	
 	

@@ -28,6 +28,7 @@ public class AD_JDBCDAO implements AD_DAO_interface{
 	private static final String UPDATE ="update ad set PROD_NO=?,AD_TITLE=?,AD_IMG=?,AD_OP_DATE=?,AD_ED_DATE=? where AD_NO=?";
 	
 
+	
 
 	@Override
 	public void insert(AD_VO ad_VO) {

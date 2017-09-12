@@ -15,6 +15,7 @@ public class FO_ACT_Service {
 		fo_act_VO.setACT_NO(act_no);
 		fo_act_VO.setFO_ACT_DATE(fo_act_date);
 		
+		
 		dao.insert(fo_act_VO);
 		return fo_act_VO;
 		

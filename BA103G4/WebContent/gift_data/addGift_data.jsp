@@ -5,6 +5,9 @@
 GIFT_DATA_VO gift_data_VO = (GIFT_DATA_VO) request.getAttribute("GIFT_DATA_VO");
 %>
 
+
+
+
 <html>
 <head>
 <title>員工資料新增 - addGift_data.jsp</title></head>
@@ -51,6 +54,7 @@ GIFT_DATA_VO gift_data_VO = (GIFT_DATA_VO) request.getAttribute("GIFT_DATA_VO");
 			value="<%= (gift_data_VO==null)? 30 : gift_data_VO.getGIFT_REMAIN()%>" /></td>
 	</tr>
 	<tr>
+	
 		<%java.sql.Date date_SQL = new java.sql.Date(System.currentTimeMillis());%>
 		
 		

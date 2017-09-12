@@ -29,6 +29,7 @@ public class ACT_VO implements Serializable{
 	private String RE_CONT;
 	private Date REVIEW_ED_DATE;
 	public ACT_VO() {
+		
 		super();
 	}
 	public String getACT_NO() {

@@ -11,6 +11,7 @@ public class ACT_PAIR_Service {
 	public ACT_PAIR_VO addAct_pair(String act_no,String mem_ac,java.sql.Date apply_date,String pay_state,String chk_state){
 		
 		ACT_PAIR_VO act_pair_VO=new ACT_PAIR_VO();
+		
 		act_pair_VO.setACT_NO(act_no);
 		act_pair_VO.setMEM_AC(mem_ac);
 		act_pair_VO.setAPPLY_DATE(apply_date);

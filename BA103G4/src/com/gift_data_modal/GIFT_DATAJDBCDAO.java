@@ -39,6 +39,7 @@ public class GIFT_DATAJDBCDAO implements GIFT_DATA_DAO_interface{
 			byte[] pic=gift_data_VO.getGIFT_IMG();
 			Blob blobpic=con.createBlob();
 			
+			
 			pstmt.setBlob(4,blobpic);
 			blobpic.setBytes(1, pic);
 			pstmt.setInt(5,gift_data_VO.getGIFT_PT());
